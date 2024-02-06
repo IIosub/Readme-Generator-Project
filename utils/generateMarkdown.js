@@ -23,6 +23,20 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
+## License
+This project is licensed under the ${data.license} license.
 
+## Contributing
+${data.contributing}
+
+## Tests
+\`\`\`
+${data.tests}
+\`\`\`
+
+## Questions
+For any questions, please contact me at [${data.email}](mailto:${data.email}) or visit my GitHub profile [here](https://github.com/${data.github}).
+`;
+`;
 }
 module.exports = generateMarkdown;

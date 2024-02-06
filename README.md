@@ -16,4 +16,4 @@ No direct installation of the app is required. However, users must have Node.js 
 
 ## Demonstration Video
 
-For a detailed guide on how to use this application, click here https://drive.google.com/file/d/14UidmvfI6xQrGtYO8mCHaWr70vs4eUHU/view?usp=sharing to view the demonstration
+For a detailed guide on how to use this application, click on the link to view the demonstration: https://drive.google.com/file/d/14UidmvfI6xQrGtYO8mCHaWr70vs4eUHU/view?usp=sharing

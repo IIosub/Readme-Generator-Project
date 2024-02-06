@@ -1,7 +1,7 @@
-const fs = require("fs");
-const path = require("path");
-const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+const fs = require("fs"); //files system
+const path = require("path"); //taking the responses and puting them into GenerateMarkdown.js
+const inquirer = require("inquirer"); // snpecial software to donwload from npm
+const generateMarkdown = require("../utils/generateMarkdown"); // Pulling whatever I have into GenerateMarkdown.js back to index.js
 
 // array of questions for user
 const questions = [
@@ -120,11 +120,16 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-  return fs.writeFile(path.join(process.cwd(), fileName), data);
+  fs.writeFile(path.join(process.cwd(), fileName), data, (err) => {
+    if (err) throw err;
+    console.log("README.md has been generated!");
+  });
 }
 
 // function to initialize program
-function init() {}
+function init() {
+  inquirer.prompt(questions).then();
+}
 
 // function call to initialize program
 init();

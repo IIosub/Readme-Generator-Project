@@ -35,8 +35,7 @@ ${data.tests}
 \`\`\`
 
 ## Questions
-For any questions, please contact me at [${data.email}](mailto:${data.email}) or visit my GitHub profile [here](https://github.com/${data.github}).
-`;
-`;
+For any questions, please contact me at [${data.email}](mailto:${data.email}) or visit my GitHub profile [here](https://github.com/${data.github}).`;
 }
+
 module.exports = generateMarkdown;

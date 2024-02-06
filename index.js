@@ -1,7 +1,7 @@
 const fs = require("fs"); //files system
 const path = require("path"); //taking the responses and puting them into GenerateMarkdown.js
 const inquirer = require("inquirer"); // snpecial software to donwload from npm
-const generateMarkdown = require("../utils/generateMarkdown"); // Pulling whatever I have into GenerateMarkdown.js back to index.js
+const generateMarkdown = require("./utils/generateMarkdown"); // Pulling whatever I have into GenerateMarkdown.js back to index.js
 
 // array of questions for user
 const questions = [

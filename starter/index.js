@@ -13,7 +13,7 @@ const questions = [
       if (value) {
         return true;
       } else {
-        return "Enter a value to continue!";
+        return "Enter the title of your project!";
       }
     },
   },
@@ -25,7 +25,7 @@ const questions = [
       if (value) {
         return true;
       } else {
-        return "Enter a value to continue!";
+        return "Enter a description!";
       }
     },
   },
@@ -63,7 +63,7 @@ const questions = [
       if (value) {
         return true;
       } else {
-        return "Enter a value to continue!";
+        return "Enter a licence!";
       }
     },
   },
@@ -100,7 +100,7 @@ const questions = [
       if (value) {
         return true;
       } else {
-        return "Enter a value to continue!";
+        return "Enter your GitHub Username!";
       }
     },
   },
@@ -112,7 +112,7 @@ const questions = [
       if (value) {
         return true;
       } else {
-        return "Enter a value to continue!";
+        return "Enter your email address!";
       }
     },
   },
